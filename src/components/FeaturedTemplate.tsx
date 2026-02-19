@@ -54,7 +54,7 @@ const FeaturedTemplate = () => {
               {benefits.map((b) => (
                 <div key={b} className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5" style={{ background: "hsl(var(--accent) / 0.15)" }}>
-                    <Check size={12} style={{ color: "hsl(38 70% 40%)" }} />
+                    <Check size={12} style={{ color: "hsl(var(--primary))" }} />
                   </div>
                   <p className="text-sm text-foreground">{b}</p>
                 </div>
