@@ -7,10 +7,10 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Text */}
           <div className="space-y-8">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border bg-card text-sm font-medium text-muted-foreground">
-              <span className="w-2 h-2 rounded-full bg-accent animate-pulse" style={{ background: "hsl(var(--accent))" }}></span>
-              Yli 1 000 suomalaista käyttäjää
-            </div>
+            
+
+
+
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight text-foreground">
               Rakenna elämäsi{" "}
@@ -34,11 +34,11 @@ const HeroSection = () => {
             {/* Social proof mini */}
             <div className="flex items-center gap-6 pt-2">
               <div className="flex -space-x-2">
-                {["🧑", "👩", "🧔", "👩‍💼", "🧑‍💻"].map((emoji, i) => (
-                  <div key={i} className="w-9 h-9 rounded-full border-2 border-background bg-muted flex items-center justify-center text-sm">
+                {["🧑", "👩", "🧔", "👩‍💼", "🧑‍💻"].map((emoji, i) =>
+                <div key={i} className="w-9 h-9 rounded-full border-2 border-background bg-muted flex items-center justify-center text-sm">
                     {emoji}
                   </div>
-                ))}
+                )}
               </div>
               <div>
                 <div className="flex gap-0.5 star-rating text-sm">★★★★★</div>
@@ -55,14 +55,14 @@ const HeroSection = () => {
                 src={notionDashboard}
                 alt="Notion Dashboard Template Preview"
                 className="w-full h-auto"
-                loading="eager"
-              />
+                loading="eager" />
+
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default HeroSection;
