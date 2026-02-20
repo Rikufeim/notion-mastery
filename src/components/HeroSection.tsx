@@ -24,10 +24,10 @@ const HeroSection = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="#kategoriat" className="btn-accent text-base px-8 py-4 text-center">
-                Selaa templateja →
+              <a href="#kategoriat" className="btn-accent text-base px-8 py-4 text-center justify-center">
+                Selaa templateja
               </a>
-              <a href="#featured" className="btn-outline text-base px-8 py-4 text-center">
+              <a href="#featured" className="btn-outline text-base px-8 py-4 text-center justify-center">
                 Katso Featured Template
               </a>
             </div>

@@ -91,24 +91,24 @@
 
   .btn-accent {
     @apply inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold transition-all duration-200;
-    background: linear-gradient(135deg, hsl(222 52% 18%), hsl(230 60% 28%));
+    background: hsl(210 80% 25%);
     color: hsl(var(--primary-foreground));
-    box-shadow: var(--shadow-button);
+    box-shadow: 0 4px 14px -2px hsl(210 80% 25% / 0.4);
   }
   .btn-accent:hover {
     transform: translateY(-1px);
-    box-shadow: 0 6px 20px -2px hsl(222 52% 14% / 0.5);
+    background: hsl(210 80% 20%);
+    box-shadow: 0 6px 20px -2px hsl(210 80% 20% / 0.5);
   }
 
   .btn-outline {
     @apply inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold border-2 transition-all duration-200;
-    border-color: hsl(var(--border));
-    color: hsl(var(--foreground));
+    border-color: hsl(210 80% 25%);
+    color: hsl(210 80% 25%);
   }
   .btn-outline:hover {
-    border-color: hsl(var(--primary));
-    color: hsl(var(--primary));
-    background: hsl(var(--secondary));
+    background: hsl(210 80% 25%);
+    color: hsl(var(--primary-foreground));
   }
 
   .card-template {
